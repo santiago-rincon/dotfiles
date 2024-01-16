@@ -1,0 +1,27 @@
+- bspwm (https://github.com/baskerville/bspwm)
+- kitty (curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin)
+- picom (https://github.com/yshui/picom)
+- polybar (https://github.com/polybar/polybar)
+- rofi
+- sxhkd 
+- libgestuare (https://github.com/bulletmark/libinput-gestures/)
+- Binarios (lsd bat xclip locate feh scrot zsh plugins)
+- Fuentes
+
+Pasos:
+1 bspwm y sxhkd 
+2 Fuentes
+3 Binarios
+4 Polybar
+5 picom 
+6 Kitty
+7 p10k
+sudo apt install cmake libxcb-xinerama0-dev libpcre3 libpcre3-dev libconfig-dev libdbus-1-dev libegl-dev libev-dev libgl-dev libpcre2-dev libpixman-1-dev libx11-xcb-dev libxcb1-dev libxcb-composite0-dev libxcb-damage0-dev libxcb-dpms0-dev libxcb-glx0-dev libxcb-image0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-util-dev libxcb-xfixes0-dev libxext-dev meson ninja-build uthash-dev
+git clone https://github.com/ibhagwan/picom.git
+cd picom
+meson setup --buildtype=release build
+ninja -C build
+ninja -C build install
+
+
+
