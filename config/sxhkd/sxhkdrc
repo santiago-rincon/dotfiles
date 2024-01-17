@@ -168,15 +168,15 @@ super + e
 # Teclas de función #
 #####################
 XF86MonBrightnessUp
-	/home/santiago/.config/sxhkd/scripts/setBrightness.sh plus
+	~/.config/sxhkd/scripts/setBrightness.sh plus
 XF86MonBrightnessDown
-	/home/santiago/.config/sxhkd/scripts/setBrightness.sh minus
+	~/.config/sxhkd/scripts/setBrightness.sh minus
 XF86AudioRaiseVolume
-	/home/santiago/.config/sxhkd/scripts/setAudioLevel.sh plus
+	~/.config/sxhkd/scripts/setAudioLevel.sh plus
 XF86AudioLowerVolume
-	/home/santiago/.config/sxhkd/scripts/setAudioLevel.sh minus
+	~/.config/sxhkd/scripts/setAudioLevel.sh minus
 XF86AudioMute
-	/home/santiago/.config/sxhkd/scripts/setAudioLevel.sh mute
+	~/.config/sxhkd/scripts/setAudioLevel.sh mute
 XF86Audio{Next,Prev,Play,Stop}
 	/usr/bin/playerctl {next,previous,play-pause,stop}
 XF86Reload

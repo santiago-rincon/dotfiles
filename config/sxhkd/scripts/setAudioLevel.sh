@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pkill xfce4-notify
-icon="/home/santiago/.config/sxhkd/assets/volume.png"
+icon="~/.config/sxhkd/assets/volume.png"
 title="Volumen actual"
 case $1 in 
     "plus")
@@ -11,7 +11,7 @@ case $1 in
     "mute")
     /usr/bin/pactl set-sink-mute 0 toggle &>/dev/null
     if [ "$(amixer sget Master | tail -n1 | awk '{print$NF}' | tr -d '[]')" != "on" ];then 
-        icon="/home/santiago/.config/sxhkd/assets/mute.png"
+        icon="~/.config/sxhkd/assets/mute.png"
         title="Bocinas en silencio"
     fi
 esac

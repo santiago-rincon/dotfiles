@@ -1,5 +1,5 @@
 #!/bin/bash
-wallpaper_path="/home/santiago/Wallpaper"
+wallpaper_path="~/Wallpaper"
 while true; do
   ls $wallpaper_path | while read background; do feh --bg-fill $wallpaper_path/$background; sleep 10m; done
 done
