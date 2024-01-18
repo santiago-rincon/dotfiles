@@ -2,7 +2,7 @@
 
 wmname LG3D &
 #vmware-user-suid-wrapper &
-
+#list monitors avaliables "xrandr -q"
 pgrep -x sxhkd > /dev/null || sxhkd &
 if [ "$(xrandr -q | grep "HDMI-1 connected")" ];then 
     bspc monitor eDP-1 -d I II III IV V

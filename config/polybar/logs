@@ -1,0 +1,43 @@
+polybar|notice:  Parsing config file: /home/santiago/.config/polybar/current.ini
+polybar|warn:  The config parameter 'settings.throttle-input-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|error: Disabling module "battery" (reason: <label-charging> is not a valid format tag for "format-discharging")
+polybar|notice:  Loading module 'alsa' of type 'internal/alsa'
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|notice:  Loading module 'nm' of type 'custom/text'
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof)
+polybar|warn:  The config parameter `module/nm.content` is deprecated, use `module/nm.format` instead.
+polybar|notice:  Loaded 2 modules
+polybar|notice:  Loaded font "Hack Nerd Font:size=12" (name=Hack Nerd Font, offset=3, file=/usr/share/fonts/HackNerdFont-Regular.ttf)
+polybar|notice:  Loaded font "Iosevka Nerd Font:bold:size=24" (name=DejaVu Sans, offset=2, file=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf)
+polybar|notice:  Loaded font "Iosevka Nerd Font:size=22" (name=DejaVu Sans, offset=6, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Loaded font "Source Code Pro:size=10" (name=DejaVu Sans, offset=3, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Loaded font "Montserrat Medium:style=Medium:size=12" (name=DejaVu Sans, offset=3, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Loaded font "Helvetica Rounded:style=Bold:size=10.5" (name=DejaVu Sans, offset=3, file=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf)
+polybar|notice:  Loaded font "Hurmit Nerd Font Mono:style=medium:pixelsize=17" (name=DejaVu Sans, offset=3, file=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf)
+polybar|notice:  Received signal(2): Interrupt
+polybar|notice:  Termination signal received, shutting down...

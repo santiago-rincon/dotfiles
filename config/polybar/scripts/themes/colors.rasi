@@ -4,8 +4,8 @@
     background:    #ffffffff;
     background-alt:    #ffffffff;
     foreground:    #606060ff;
-    border:    #5895DCff;
-    selected:    #5895DCff;
+    border:    #ffffffff;
+    selected:    #ffffffff;
     urgent:    #EC407Aff;
 	logo:    #EC407Aff;
 	on:    #61C766ff;

@@ -12,4 +12,4 @@ case $1 in
       ;;
 esac
 let b=b*1/15
-notify-send -t 2000 -i ~/.config/sxhkd/assets/brillo.png "Brillo actual" "$b%"
+notify-send -t 2000 -i $HOME/.config/sxhkd/assets/brillo.png "Brillo actual" "$b%"
